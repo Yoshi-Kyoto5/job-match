@@ -21,9 +21,9 @@
 #   corona_support: 'リモートワーク実施済'
 # )
 # User.create!(
-#   email: 'user2@example.com',
-#   password: 'aaaaaaaa',
-#   name: '田中 元気',
+#   email: 'user2@gmail.com',
+#   password: '888888',
+#   name: '空飛 元気',
 #   introduction: 'キャビンアテンダント',
 #   sex: 0,
 #   img_name: open("#{Rails.root}/db/dummy_img/6.jpg")
@@ -34,8 +34,8 @@
 #   corona_support: ''
 # )
 # User.create!(
-#   email: 'user3@example.com',
-#   password: 'aaaaaaaa',
+#   email: 'user3@gmail.com',
+#   password: '888888',
 #   name: '青空 花',
 #   introduction: 'カメラマン',
 #   sex: 1,
@@ -47,8 +47,8 @@
 #   corona_support: ''
 # )
 # User.create!(
-#   email: 'user4@example.com',
-#   password: 'aaaaaaaa',
+#   email: 'user4@gmail.com',
+#   password: '888888',
 #   name: 'Lily',
 #   introduction: 'ヨガインストラクター',
 #   sex: 1,
@@ -60,8 +60,8 @@
 #   corona_support: ''
 # )
 # User.create(
-#   email: 'user5@example.com',
-#   password: 'aaaaaaaa',
+#   email: 'user5@gmail.com',
+#   password: '888888',
 #   name: 'Mike',
 #   introduction: 'スペイン語教師',
 #   sex: 0,
