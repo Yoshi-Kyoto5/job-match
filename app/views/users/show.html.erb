@@ -10,7 +10,26 @@
         <%= image_tag @user.img_name.url(:thumb) %>
       </div>
       <div class='userInfo_name'><%= @user.name%></div>
-      <div class='userInfo_selfIntroduction'><%= @user.introduction %></div>
+      <div class='userInfo_selfIntroduction'>
+        <p>＜自己紹介 or 仕事紹介＞</p>
+        <%= simple_format(@user.introduction) %>
+      </div></br>
+      <div class='userInfo_selfWorkLocation'>
+        <p>＜勤務地＞</p>
+        <%= @user.work_location %>
+      </div></br>
+      <div class='userInfo_selfWorkTime'>
+        <p>＜勤務時間＞</p>
+        <%= @user.work_time %>
+      </div></br>
+      <div class='userInfo_selfSalary'>
+        <p>＜給料＞</p>
+        <%= @user.salary %>
+      </div></br>
+      <div class='userInfo_selfCoronaSupport'>
+        <p>＜新型コロナ対策＞</p>
+        <%= @user.corona_support %>
+      </div></br>
     </div>
     <% if current_user.id == @user.id %>
       <div class='userAction'>
