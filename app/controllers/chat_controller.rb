@@ -10,7 +10,7 @@ class ChatController < ApplicationController
       ChatRoomUser.create(chat_room: chat_room, user_id: params[:user_id])
     end
 
-    redirect_to action: show, id: chat_room.id
+    redirect_to action: :show, id: chat_room.id
   end
 
   def show
