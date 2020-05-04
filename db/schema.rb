@@ -10,35 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_03_084609) do
-
-  create_table "chat_messages", force: :cascade do |t|
-    t.integer "chat_room_id", null: false
-    t.integer "user_id", null: false
-    t.string "message", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "chat_room_users", force: :cascade do |t|
-    t.integer "chat_room_id", null: false
-    t.integer "user_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "chat_rooms", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "reactions", force: :cascade do |t|
-    t.integer "to_user_id", null: false
-    t.integer "from_user_id", null: false
-    t.integer "status", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 2020_04_30_121337) do
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -48,16 +20,6 @@ ActiveRecord::Schema.define(version: 2020_05_03_084609) do
     t.datetime "remember_created_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "name", limit: 20, default: "", null: false
-    t.integer "status", default: 0, null: false
-    t.string "img_name"
-    t.text "introduction", limit: 500
-    t.string "job_name", limit: 20
-    t.string "work_location", limit: 10
-    t.string "work_time", limit: 20
-    t.string "start_date"
-    t.string "salary", limit: 20
-    t.text "corona_support", limit: 300
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
