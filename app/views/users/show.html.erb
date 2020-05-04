@@ -15,6 +15,10 @@
         <%= simple_format(@user.introduction) %>
       </div></br>
       <div class='userInfo_selfWorkLocation'>
+        <p>＜業種・職種＞</p>
+        <%= @user.job_name %>
+      </div></br>
+      <div class='userInfo_selfWorkLocation'>
         <p>＜勤務地＞</p>
         <%= @user.work_location %>
       </div></br>
@@ -23,10 +27,6 @@
         <%= @user.work_time %>
       </div></br>
       <div class='userInfo_selfWorkTime'>
-        <p>＜入社希望日＞</p>
-        <%= @user.start_date %>
-      </div></br>
-      <div class='userInfo_selfSalary'>
         <p>＜入社希望日＞</p>
         <%= @user.start_date %>
       </div></br>
