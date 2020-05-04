@@ -11,6 +11,14 @@
       <% @users.each do |user| %>
         <li data-user_id="<%= user.id %>">
           <div class="userName"><%= user.name %></div>
+          <div class="userStatus"><%= user.status %></div>
+          <div class="userIntroduction"><%= user.introduction %></div>
+          <div class="userJobName"><%= user.job_name %></div>
+          <div class="userWorkLocation"><%= user.work_location %></div>
+          <div class="userWorkTime"><%= user.work_time %></div>
+          <div class="userStartDate"><%= user.start_date %></div>
+          <div class="userSalary"><%= user.salary %></div>
+          <div class="userCoronaSupport"><%= user.corona_support %></div>
           <%= image_tag user.img_name.url(:thumb) %>
           <div class="like"></div>
           <div class="dislike"></div>

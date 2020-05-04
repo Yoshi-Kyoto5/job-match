@@ -50,7 +50,49 @@ html, body {
       transform: translate3d(0%,0,0) scale3d(1,1,1);
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
-      .userName {
+      .userIntroduction {
+        position: absolute;
+        bottom: 185px;
+        color: #fff;
+        z-index: 100;
+        text-shadow: 0 2px 4px rgba(0,0,0,.5);
+      }
+      .userJobName {
+        position: absolute;
+        bottom: 155px;
+        color: #fff;
+        z-index: 100;
+        text-shadow: 0 2px 4px rgba(0,0,0,.5);
+      }
+      .userWorkLocation {
+        position: absolute;
+        bottom: 125px;
+        color: #fff;
+        z-index: 100;
+        text-shadow: 0 2px 4px rgba(0,0,0,.5);
+      }
+      .userWorkTime {
+        position: absolute;
+        bottom: 95px;
+        color: #fff;
+        z-index: 100;
+        text-shadow: 0 2px 4px rgba(0,0,0,.5);
+      }
+      .userStartDate {
+        position: absolute;
+        bottom: 65px;
+        color: #fff;
+        z-index: 100;
+        text-shadow: 0 2px 4px rgba(0,0,0,.5);
+      }
+      .userSalary {
+        position: absolute;
+        bottom: 35px;
+        color: #fff;
+        z-index: 100;
+        text-shadow: 0 2px 4px rgba(0,0,0,.5);
+      }
+      .userCoronaSupport {
         position: absolute;
         bottom: 5px;
         color: #fff;
