@@ -9,7 +9,7 @@ class User < ApplicationRecord
 
   mount_uploader :img_name, ImgNameUploader
 
-  enum sex: { 男: 0, 女: 1}
+  enum status: { 求人者: 0, 求職者: 1}
   
   validates :img_name, presence: true
 end
