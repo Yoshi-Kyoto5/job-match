@@ -49,12 +49,13 @@ ActiveRecord::Schema.define(version: 2020_05_03_084609) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name", limit: 20, default: "", null: false
-    t.integer "sex", default: 0, null: false
+    t.integer "status", default: 0, null: false
     t.string "img_name"
     t.text "introduction", limit: 500
     t.string "job_name", limit: 20
     t.string "work_location", limit: 10
     t.string "work_time", limit: 20
+    t.string "start_date"
     t.string "salary", limit: 20
     t.text "corona_support", limit: 300
     t.index ["email"], name: "index_users_on_email", unique: true

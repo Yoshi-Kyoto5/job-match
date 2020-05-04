@@ -19,6 +19,10 @@
         <%= f.text_field :work_time, class: "form-control" %>
       </div>
       <div class="form-group">
+        <%= f.label '入社希望日' %>
+        <%= f.text_field :start_date, class: "form-control" %>
+      </div>
+      <div class="form-group">
         <%= f.label '給料' %>
         <%= f.text_field :salary, class: "form-control" %>
       </div>
@@ -27,11 +31,11 @@
         <%= f.text_area :corona_support, class: "form-control" %>
       </div>
       <div class="form-group">
-        性別:
-        <%= f.label '男' %>
-        <%= f.radio_button :sex, :男 %>
-        <%= f.label '女' %>
-        <%= f.radio_button :sex, :女 %>
+        求人者/求職者:
+        <%= f.label '求人者' %>
+        <%= f.radio_button :status, :求人者 %>
+        <%= f.label '求職者' %>
+        <%= f.radio_button :status, :求職者 %>
       </div>
       <div class="form-group">
         画像:
