@@ -32,3 +32,6 @@
   carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
   font-awesome-sass | bootstrap | devise |
 
+# Author 
+- Github: https://github.com/Yoshi-Kyoto5/
+
