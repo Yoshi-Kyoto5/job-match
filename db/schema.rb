@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(version: 2020_05_03_084609) do
     t.string "work_time", limit: 20
     t.string "start_date"
     t.string "salary", limit: 20
-    t.text "corona_support", limit: 300
+    t.string "corona_support", limit: 100
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
