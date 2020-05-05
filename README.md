@@ -35,3 +35,59 @@
 # Author 
 - Github: https://github.com/Yoshi-Kyoto5/
 
+# Database creation
+## users-table 
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|email|string|null: false|
+|password|string|null: false|
+|encrypted_password|string|null: false|
+|status|integer|null: false|
+|img_name|string|
+|introduction|text|
+|job_name|string|
+|work_location|string|
+|work_time|string|
+|start_date|string|
+|salary|string|
+|corona_support|text|
+### Association
+- has_many :messages
+- has_many :chat_room_users
+
+## reactions-table 
+|Column|Type|Options|
+|------|----|-------|
+|to_user_id|integer|null: false|
+|from_user_id|integer|null: false|
+|status|integer|null: false|
+### Association
+- belongs_to :to_user, class_name: "User"
+- belongs_to :from_user, class_name: "User"
+
+## chat_rooms-table 
+|Column|Type|Options|
+|------|----|-------|
+### Association
+- has_many :chat_messages
+- has_many :chat_room_users
+
+## chat_room_users-table 
+|Column|Type|Options|
+|------|----|-------|
+|chat_room_id|integer|null: false|
+|user_id|integer|null: false|
+### Association
+- belongs_to :chat_room
+- belongs_to :user
+
+## chat_messages-table 
+|Column|Type|Options|
+|------|----|-------|
+|chat_room_id|integer|null: false|
+|user_id|integer|null: false|
+|message|string|null: false|
+### Association
+- belongs_to :chat_room
+- belongs_to :user
