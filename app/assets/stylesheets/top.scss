@@ -1,21 +1,36 @@
 .loginPage {
-  &_contents {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    &_title {
-      margin-top: 12vh;
+  // height: 100vh;
+  // width: 100vw;
+  // .container {
+  //   background-image: url(top6.jpeg);
+  //   background-size: contain;
+  // }
+    &_contents {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      &_title {
+        margin-top: 12vh;
+        color: black;
+        font-size: 35px;
+      }
+      &_title2 {
+        margin-top: -400px;
+        color: black;
+        font-size: 25px;
+      }
+      &_btn {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        margin: 0 auto;
+        border-radius: 30px;
+        background-color: #fd5068;
+        color: #fff;
+        font-size: 30px;
+      }
     }
-    &_btn {
-      display: block;
-      max-width: 400px;
-      padding: 20px;
-      margin: 0 auto;
-      border-radius: 30px;
-      background-color: #fd5068;
-      color: #fff;
-    }
-  }
 }
