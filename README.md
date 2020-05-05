@@ -26,3 +26,9 @@
 - 画像ファイルのアップロード機能
 - 管理ユーザー登録、編集機能
 - 管理ユーザーログイン、ログアウト機能
+
+# Requirement
+- Ruby, 2.5.1 | Rails, 5.2.3 | sqlite3, 1.3.6 | Git | GitHub | AWS | 
+  carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
+  font-awesome-sass | bootstrap | devise |
+
