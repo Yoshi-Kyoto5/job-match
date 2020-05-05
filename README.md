@@ -4,7 +4,7 @@
 ![job-matching](https://user-images.githubusercontent.com/61217608/81028922-3279e080-8ebe-11ea-9b1d-ffc621a92302.png)
 
 # Suteru
-<img width="1229" alt="reademe(job match)" src="https://user-images.githubusercontent.com/61217608/81044412-3d993480-8eef-11ea-8a37-6567e0dc7c43.png">
+![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
 
 # Overview 
 - 仕事のマッチングアプリ（新型コロナ緊急対策）
