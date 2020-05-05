@@ -9,6 +9,6 @@ class AddColumnToUser < ActiveRecord::Migration[5.2]
     add_column :users, :work_time, :string, limit: 20
     add_column :users, :start_date, :string
     add_column :users, :salary, :string, limit: 20
-    add_column :users, :corona_support, :text, limit: 300
+    add_column :users, :corona_support, :string, limit: 100
   end
 end
