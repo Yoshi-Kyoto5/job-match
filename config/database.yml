@@ -1,4 +1,3 @@
-cat database.yml
 default: &default
   adapter: mysql2
   charset: utf8mb4
