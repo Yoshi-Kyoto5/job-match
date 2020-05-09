@@ -11,13 +11,17 @@ default: &default
 
 development:
   <<: *default
+  database: job-match_development
 
 test:
   <<: *default
-  database: test
+  database: job-match_test
 
 production:
   <<: *default
+  database: job-match_production
+  username: job-match
+  password: <%= ENV['JOB-MATCH_DATABASE_PASSWORD'] %>
 
 staging:
   <<: *default
