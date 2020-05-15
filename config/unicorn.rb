@@ -47,7 +47,7 @@
 
 app_path = File.expand_path('../../', __FILE__)
 
- ENV['BUNDLE_GEMFILE'] = rails_root + "/Gemfile"
+# ENV['BUNDLE_GEMFILE'] = rails_root + "/Gemfile"
 
 worker_processes 1
 
