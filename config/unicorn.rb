@@ -54,15 +54,19 @@ worker_processes 1
 working_directory "#{app_path}/current"
 
 # pid File.expand_path('../../../tmp/pids/unicorn.pid', __FILE__)
-pid "#{app_path}/shared/tmp/pids/unicorn.pid"
+pid "#{app_path}/tmp/pids/unicorn.pid"
+#pid "#{app_path}/shared/tmp/pids/unicorn.pid"
 
 # listen 8080
-listen "#{app_path}/shared/tmp/sockets/unicorn.sock"
+listen "#{app_path}/tmp/sockets/unicorn.sock"
+#listen "#{app_path}/shared/tmp/sockets/unicorn.sock"
 
 # stderr_path File.expand_path('../../../log/unicorn_stderr.log', __FILE__)
 # stdout_path File.expand_path('../../../log/unicorn_stdout.log', __FILE__)
-stderr_path "#{app_path}/shared/log/unicorn.stderr.log"
-stdout_path "#{app_path}/shared/log/unicorn.stdout.log"
+# stderr_path "#{app_path}/shared/log/unicorn.stderr.log"
+# stdout_path "#{app_path}/shared/log/unicorn.stdout.log"
+stderr_path "#{app_path}/log/unicorn.stderr.log"
+stdout_path "#{app_path}/log/unicorn.stdout.log"
 
 timeout 60
 
