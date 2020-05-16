@@ -63,6 +63,7 @@ pid "#{app_path}/tmp/pids/unicorn.pid"
 listen "#{app_path}/tmp/sockets/unicorn.sock"
 #listen "#{app_path}/shared/tmp/sockets/unicorn.sock"
 
+#ログ確認
 # stderr_path File.expand_path('../../../log/unicorn_stderr.log', __FILE__)
 # stdout_path File.expand_path('../../../log/unicorn_stdout.log', __FILE__)
 # stderr_path "#{app_path}/shared/log/unicorn.stderr.log"
