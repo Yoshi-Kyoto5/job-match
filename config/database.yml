@@ -20,6 +20,7 @@ test:
 production:
   <<: *default
   database: job-match_production
+  username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: <%= ENV['DATABASE_SOCKET'] %>
 
