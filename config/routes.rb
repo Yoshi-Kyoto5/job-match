@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   resources :reactions, only: [:create] 
   resources :matching, only: [:index]
   resources :chat, only: [:create, :show]
+
+  mount ActionCable.server => '/cable'
 end
