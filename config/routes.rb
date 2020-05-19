@@ -11,5 +11,5 @@ Rails.application.routes.draw do
   resources :matching, only: [:index]
   resources :chat, only: [:create, :show]
 
-  # mount ActionCable.server => '/cable'
+  mount ActionCable.server => '/cable'
 end
