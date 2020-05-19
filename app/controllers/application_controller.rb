@@ -3,8 +3,8 @@ class ApplicationController < ActionController::Base
   skip_before_action :verify_authenticity_token, if: :devise_controller?
 
   before_action :configure_permitted_parameters, if: :devise_controller?
-  # protect_from_forgery with: :exception
-  protect_from_forgery with: :null_session
+  protect_from_forgery with: :exception
+  # protect_from_forgery with: :null_session
   
   protected
 
