@@ -80,3 +80,4 @@ group :production do
 end
 
 gem 'dotenv-rails'
+gem 'fog-aws'
