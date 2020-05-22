@@ -6,8 +6,12 @@
 # Suteru
 ![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
 
+# Test account
+- （求職者）E-mail = user3@gmail.com, Password = 888888
+- （求人者）E-mail = user1@gmail.com, Password = 888888
+
 # Overview 
-- 仕事のマッチングアプリ（新型コロナ緊急対策）
+- 仕事探しのマッチングアプリ（新型コロナ緊急対策）
 
 # Description
 - 登録したユーザーを確認できる（求人者 / 求職者）
@@ -23,15 +27,17 @@
 # Features
 - ユーザーの一覧表示機能
 - スワイプ機能
+- like, dislike機能
 - マッチングしたユーザーの保存機能
-- マッチング相手の一覧表示機能
+- マッチング相手同士の一覧表示機能
 - マッチング相手とのチャット機能
 - 画像ファイルのアップロード機能
 - 管理ユーザー登録、編集機能
 - 管理ユーザーログイン、ログアウト機能
 
 # Requirement
-- Ruby, 2.5.1 | Rails, 5.2.3 | mysql2 | Git | GitHub | AWS | 
+- Ruby, 2.5.1 | Rails, 5.2.3 | MySQL2 | GitHub | 
+  AWS(EC2, S3) | Nginx | Unicorn |
   carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
   font-awesome-sass | bootstrap | devise |
 
