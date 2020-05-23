@@ -7,7 +7,7 @@
 - Ruby, 2.5.1 | Rails, 5.2.3 | MySQL2 | GitHub | 
   AWS(EC2, S3) | Nginx | Unicorn |
   carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
-  font-awesome-sass | bootstrap | devise |
+  font-awesome-sass | bootstrap | devise | Rspec | Factory_bot |
 
 # Suteru
 ![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
