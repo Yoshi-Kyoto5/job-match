@@ -3,6 +3,12 @@
 # Name
 ![job-matching](https://user-images.githubusercontent.com/61217608/81028922-3279e080-8ebe-11ea-9b1d-ffc621a92302.png)
 
+# Requirement
+- Ruby, 2.5.1 | Rails, 5.2.3 | MySQL2 | GitHub | 
+  AWS(EC2, S3) | Nginx | Unicorn |
+  carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
+  font-awesome-sass | bootstrap | devise |
+
 # Suteru
 ![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
 
@@ -34,12 +40,6 @@
 - 画像ファイルのアップロード機能
 - 管理ユーザー登録、編集機能
 - 管理ユーザーログイン、ログアウト機能
-
-# Requirement
-- Ruby, 2.5.1 | Rails, 5.2.3 | MySQL2 | GitHub | 
-  AWS(EC2, S3) | Nginx | Unicorn |
-  carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
-  font-awesome-sass | bootstrap | devise |
 
 # Author 
 - Github: https://github.com/Yoshi-Kyoto5/
