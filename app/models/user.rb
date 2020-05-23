@@ -11,5 +11,6 @@ class User < ApplicationRecord
 
   enum status: { 求人者: 0, 求職者: 1}
   
+  validates :name, :email, presence: true, uniqueness: true
   validates :img_name, presence: true
 end
