@@ -18,6 +18,7 @@
 
 # Overview 
 - 仕事探しのマッチングアプリ（新型コロナ緊急対策）
+- URL: https://www.job-match-support-corona.com/
 
 # Description
 - 登録したユーザーを確認できる（求人者 / 求職者）
