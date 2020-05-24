@@ -5,7 +5,7 @@
 
 # Requirement
 - Ruby, 2.5.1 | Rails, 5.2.3 | MySQL2 | GitHub | 
-  AWS(EC2, S3) | Nginx | Unicorn |
+  AWS(Route53, ACM, CloudFront | EC2, S3) | Nginx | Unicorn |
   carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
   font-awesome-sass | bootstrap | devise | Rspec-rails | Factory_bot_rails |
 
