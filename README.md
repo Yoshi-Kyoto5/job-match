@@ -23,13 +23,13 @@
 # Suteru
 ![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
 
-# Test account
-- （求職者）E-mail = user3@gmail.com, Password = 888888
-- （求人者）E-mail = user1@gmail.com, Password = 888888
-
 # Overview 
 - 仕事探しのマッチングアプリ（新型コロナ緊急対策）
 - URL: https://www.job-match-support-corona.com/
+
+# Test account
+- （求職者）E-mail = user3@gmail.com, Password = 888888
+- （求人者）E-mail = user1@gmail.com, Password = 888888
 
 # Description
 - 登録したユーザーを確認できる（求人者 / 求職者）
