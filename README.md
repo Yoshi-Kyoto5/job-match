@@ -4,7 +4,7 @@
 ![job-matching](https://user-images.githubusercontent.com/61217608/81028922-3279e080-8ebe-11ea-9b1d-ffc621a92302.png)
 
 # Requirement
-- Ruby, 2.5.1 | Rails, 5.2.3 | MySQL2 | AWS(Route53, ACM, CloudFront, EC2, S3) |
+- Ruby | Rails | MySQL | AWS(Route53, ACM, CloudFront, EC2, S3) |
   Nginx | Unicorn | GitHub |
   carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
   font-awesome-sass | bootstrap | devise | Rspec-rails | Factory_bot_rails |
