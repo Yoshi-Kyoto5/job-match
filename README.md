@@ -9,6 +9,17 @@
   carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
   font-awesome-sass | bootstrap | devise | Rspec-rails | Factory_bot_rails |
 
+# Features
+- ユーザーの一覧表示機能
+- スワイプ機能
+- like, dislike機能
+- マッチングしたユーザーの保存機能
+- マッチング相手同士の一覧表示機能
+- マッチング相手とのチャット機能
+- 画像ファイルのアップロード機能
+- 管理ユーザー登録、編集機能
+- 管理ユーザーログイン、ログアウト機能
+
 # Suteru
 ![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
 
@@ -30,17 +41,6 @@
 - 新型コロナの影響で、逆に仕事が増えて人手不足に困っている企業がある
   例えば、オンラインサービス、生活必需品の小売業、製造メーカー（マスク/在宅勤務商品/衛生商品）
 - 上記の求人者と求職者が迅速にマッチングして経済が回る支援がしたいと思ったこと。
-
-# Features
-- ユーザーの一覧表示機能
-- スワイプ機能
-- like, dislike機能
-- マッチングしたユーザーの保存機能
-- マッチング相手同士の一覧表示機能
-- マッチング相手とのチャット機能
-- 画像ファイルのアップロード機能
-- 管理ユーザー登録、編集機能
-- 管理ユーザーログイン、ログアウト機能
 
 # Author 
 - Github: https://github.com/Yoshi-Kyoto5/
