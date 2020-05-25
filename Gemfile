@@ -48,6 +48,7 @@ group :development, :test do
   gem 'capistrano3-unicorn'
   gem 'capistrano-rails-console'
   gem 'rspec-rails'
+  gem 'rspec_junit_formatter'
   gem 'factory_bot_rails'
 end
 
