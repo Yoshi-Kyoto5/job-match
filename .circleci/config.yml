@@ -2,32 +2,35 @@ version: 2
 jobs:
   build:
     machine: true
+      - image: circleci/ruby:2.5.1-node-browsers
+        environment:
+          - BUNDLER_VERSION: 2.1.4
+          - RAILS_ENV: 'test'
+      - image: circleci/mysql2:0.5.3
+        environment:
+          - MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+          - MYSQL_ROOT_HOST: '%'
 
     working_directory: ~/job-match
-
+    # working_directory: "git@github.com:Yoshi-Kyoto5/job-match.git"
     steps:
       - checkout
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
             - v1-dependencies-
-
       - run:
           name: install dependencies
           command: |
             gem install bundler -v 2.1.4
             bundle install --jobs=4 --retry=3 --path vendor/bundle
-
       - save_cache:
           paths:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
-
       - run: mv config/database.yml.ci config/database.yml 
-      
       - run: bundle exec rake db:create
       - run: bundle exec rake db:schema:load
-
       - run:
           name: run tests
           command: |
