@@ -5,30 +5,9 @@
 
 # Requirement
 - Ruby | Rails | MySQL | AWS(Route53, ACM, CloudFront, EC2, S3) |
-  Nginx | Unicorn | GitHub |
+  Nginx | Unicorn | Capistrano |
   carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
-  font-awesome-sass | bootstrap | devise | Rspec-rails | Factory_bot_rails |
-
-# Suteru
-![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
-
-# Test account
-- （求職者）E-mail = user3@gmail.com, Password = 888888
-- （求人者）E-mail = user1@gmail.com, Password = 888888
-
-# Overview 
-- 仕事探しのマッチングアプリ（新型コロナ緊急対策）
-
-# Description
-- 登録したユーザーを確認できる（求人者 / 求職者）
-- 興味のあるユーザーに「いいね」が押せる
-- マッチングしたユーザー同士でチャットができる（採用状況の説明/希望案件への質問）
-
-# Planning background
-- 新型コロナの影響で、仕事探しに困っている人が増えている（求職者）
-- 新型コロナの影響で、逆に仕事が増えて人手不足に困っている企業がある
-  例えば、オンラインサービス、生活必需品の小売業、製造メーカー（マスク/在宅勤務商品/衛生商品）
-- 上記の求人者と求職者が迅速にマッチングして経済が回る支援がしたいと思ったこと。
+  font-awesome-sass | bootstrap | devise | RSpec-rails | Factory_bot_rails |
 
 # Features
 - ユーザーの一覧表示機能
@@ -40,6 +19,28 @@
 - 画像ファイルのアップロード機能
 - 管理ユーザー登録、編集機能
 - 管理ユーザーログイン、ログアウト機能
+
+# Suteru
+![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
+
+# Overview 
+- 仕事探しのマッチングアプリ（新型コロナ緊急対策）
+- URL: https://www.job-match-support-corona.com/
+
+# Test account
+- （求職者）E-mail = user3@gmail.com, Password = 888888
+- （求人者）E-mail = user1@gmail.com, Password = 888888
+
+# Description
+- 登録したユーザーを確認できる（求人者 / 求職者）
+- 興味のあるユーザーに「いいね」が押せる
+- マッチングしたユーザー同士でチャットができる（採用状況の説明/希望案件への質問）
+
+# Planning background
+- 新型コロナの影響で、仕事探しに困っている人が増えている（求職者）
+- 新型コロナの影響で、逆に仕事が増えて人手不足に困っている企業がある
+  例えば、オンラインサービス、生活必需品の小売業、製造メーカー（マスク/在宅勤務商品/衛生商品）
+- 上記の求人者と求職者が迅速にマッチングして経済が回る支援がしたいと思ったこと。
 
 # Author 
 - Github: https://github.com/Yoshi-Kyoto5/
