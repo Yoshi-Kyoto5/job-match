@@ -23,8 +23,9 @@ jobs:
           name: install dependencies
           command: |
             gem install bundler -v 2.1.4
+            bundle install
           # bundle install --jobs=4 --retry=3 --path vendor/bundle
-            bundle config set path 'vender/bundle
+          # bundle config set path 'vender/bundle
       - save_cache:
           paths:
             - ./vendor/bundle
