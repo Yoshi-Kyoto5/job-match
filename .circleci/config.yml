@@ -11,7 +11,7 @@ jobs:
     #       - MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
     #       - MYSQL_ROOT_HOST: '%'
 
-    # working_directory: ~/job-match
+    working_directory: ~/job-match
     # working_directory: "git@github.com:Yoshi-Kyoto5/job-match.git"
     steps:
       - checkout
@@ -24,7 +24,7 @@ jobs:
           command: |
             gem install bundler -v 2.1.4
           # bundle install --jobs=4 --retry=3 --path vendor/bundle
-            bundle install --jobs=4 --retry=3 bundle config set path 'vender/bundle
+            bundle config set path 'vender/bundle
       - save_cache:
           paths:
             - ./vendor/bundle
