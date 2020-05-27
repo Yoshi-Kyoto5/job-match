@@ -13,10 +13,10 @@ jobs:
         #   - BUNDLER_VERSION: 2.1.4
         #   - RAILS_ENV: 'test'
       - image: circleci/mysql:5.6
-         environment:
-           - MYSQL_DATABASE: 'job-match'
-           - MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
-           - MYSQL_ROOT_HOST: '%'
+        #  environment:
+        #    - MYSQL_DATABASE: 'job-match'
+        #    - MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+        #    - MYSQL_ROOT_HOST: '%'
 
     working_directory: ~/job-match
     # working_directory: "git@github.com:Yoshi-Kyoto5/job-match.git"
