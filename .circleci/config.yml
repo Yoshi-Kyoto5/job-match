@@ -1,8 +1,10 @@
 version: 2
 jobs:
   build:
-    machine:
-         image: circleci/ruby:2.5.1
+    # machine:
+    docker:
+      - image: circleci/ruby:2.5.1
+    #    image: circleci/ruby:2.5.1
     #    image: circleci/ruby:2.5.1-strech
     #    image: circleci/ruby:2.3.1-jessie-node
     #     environment:
