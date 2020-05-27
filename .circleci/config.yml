@@ -43,7 +43,7 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
       # - run: mv config/database.yml.ci config/database.yml 
-        - run: mv config/database.ci.yml config/database.yml 
+      - run: mv config/database.ci.yml config/database.yml 
       # - run:
       #    name: 'wait for db'
       #    command: dockerize -wait tcp://localhost:3306 -timeout 1m
