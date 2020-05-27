@@ -7,6 +7,7 @@ jobs:
         environment:
           BUNDLER_VERSION: 2.1.4
           RAILS_ENV: 'test'
+          DB_HOST: 127.0.0.1
     #    image: circleci/ruby:2.5.1
     #    image: circleci/ruby:2.5.1-strech
     #    image: circleci/ruby:2.3.1-jessie-node
