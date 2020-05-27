@@ -1,8 +1,8 @@
 version: 2
 jobs:
   build:
-    machine: true
-        - image: circleci/ruby:2.5.1
+    machine:
+        image: circleci/ruby:2.5.1
     #     environment:
     #       - BUNDLER_VERSION: 2.1.4
     #       - RAILS_ENV: 'test'
