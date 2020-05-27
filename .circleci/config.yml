@@ -17,12 +17,12 @@ jobs:
       # - image: circleci/mysql2:5.6
       - image: circleci/mysql:5.6
         environment:
-          # MYSQL_DATABASE: 'job-match'
-          # MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
-          # MYSQL_ROOT_HOST: '%'
-          MYSQL_USER: root
-          MYSQL_DB: circle_test
-          
+          MYSQL_DATABASE: 'job-match'
+          MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+          MYSQL_ROOT_HOST: '%'
+          # MYSQL_USER: root
+          # MYSQL_DB: circle_test
+
     working_directory: ~/job-match
     # working_directory: "git@github.com:Yoshi-Kyoto5/job-match.git"
     steps:
