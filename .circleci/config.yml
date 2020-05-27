@@ -3,7 +3,7 @@ jobs:
   build:
     # machine:
     docker:
-      - image: circleci/ruby:2.5.1
+      - image: circleci/ruby:2.5.1-node
         environment:
           BUNDLER_VERSION: 2.1.4
           RAILS_ENV: 'test'
