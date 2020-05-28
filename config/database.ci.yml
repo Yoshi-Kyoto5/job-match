@@ -1,28 +1,27 @@
-# default: &default
-#   adapter: mysql2
-#   encoding: utf8
-#   charset: utf8
-#   collation: utf8mb4_general_ci
-#   pool: 5
-#   host: 127.0.0.1
-#   port: 3306
-#   username: root # .circleci/config.yml のMYSQL_USERと揃える。
-#   password:
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  charset: utf8
+  pool: 5
+  host: 127.0.0.1
+  port: 3306
+  username: root # .circleci/config.yml のMYSQL_USERと揃える。
+  password:
 
 # test:
 #   <<: *default
 #   database: circle_test
 
-default: &default
-  adapter: mysql2
-  charset: utf8
-  encoding: utf8
-  pool: 5
-  host:     <%= ENV['DATABASE_HOST'] %>
-  database: <%= ENV['DATABASE_NAME'] %>
-  username: <%= ENV['DATABASE_USER'] %>
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket:   <%= ENV['DATABASE_SOCKET'] %>
+# default: &default
+#   adapter: mysql2
+#   charset: utf8
+#   encoding: utf8
+#   pool: 5
+#   host:     <%= ENV['DATABASE_HOST'] %>
+#   database: <%= ENV['DATABASE_NAME'] %>
+#   username: <%= ENV['DATABASE_USER'] %>
+#   password: <%= ENV['DATABASE_PASSWORD'] %>
+#   socket:   <%= ENV['DATABASE_SOCKET'] %>
 
 test:
   <<: *default

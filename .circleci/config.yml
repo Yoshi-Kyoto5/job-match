@@ -21,8 +21,7 @@ jobs:
           # MYSQL_DATABASE: <%= ENV['DATABASE_NAME'] %>
           # MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
           # MYSQL_ROOT_HOST: '%'
-          # MYSQL_USER: root
-          # MYSQL_DB: circle_test
+          MYSQL_USER: root
 
     working_directory: ~/job-match
     # working_directory: "git@github.com:Yoshi-Kyoto5/job-match.git"
