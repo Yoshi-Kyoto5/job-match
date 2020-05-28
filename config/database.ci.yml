@@ -13,7 +13,7 @@
 #   <<: *default
 #   database: circle_test
 
-test:
+default: &default
   adapter: mysql2
   charset: utf8
   encoding: utf8
@@ -23,3 +23,18 @@ test:
   username: <%= ENV['DATABASE_USER'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
   socket:   <%= ENV['DATABASE_SOCKET'] %>
+
+test:
+  <<: *default
+  database: job-match_test
+
+# test:
+#   adapter: mysql2
+#   charset: utf8
+#   encoding: utf8
+#   pool: 5
+#   host:     <%= ENV['DATABASE_HOST'] %>
+#   database: <%= ENV['DATABASE_NAME'] %>
+#   username: <%= ENV['DATABASE_USER'] %>
+#   password: <%= ENV['DATABASE_PASSWORD'] %>
+#   socket:   <%= ENV['DATABASE_SOCKET'] %>
