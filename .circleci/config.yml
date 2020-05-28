@@ -69,7 +69,12 @@ jobs:
       - store_artifacts:
           path: /tmp/test-results
           destination: test-results
-          
+
       - add_ssh_keys:
           fingerprints:
             - "24:07:ab:c0:26:dc:aa:07:ad:f6:37:08:4d:73:62:6a"
+
+      - deploy:
+          name: Capistrano deploy
+          command:
+            bundle exec cap production deploy
