@@ -4,10 +4,10 @@
 ![job-matching](https://user-images.githubusercontent.com/61217608/81028922-3279e080-8ebe-11ea-9b1d-ffc621a92302.png)
 
 # Requirement
-- Ruby | Rails | MySQL | AWS(Route53, ACM, CloudFront, EC2, S3) |
-  Nginx | Unicorn | Capistrano |
-  carrierwave | mini_magick | jTinder | jquery-rails | action_cable |
-  font-awesome-sass | bootstrap | devise | RSpec-rails | Factory_bot_rails |
+- Ruby | Rails | MySQL | Circle CI/CD | AWS(Route53, ACM, CloudFront, EC2, S3) |
+  Nginx | Unicorn | Capistrano | carrierwave | mini_magick | jTinder |
+  jquery-rails | action_cable | font-awesome-sass | bootstrap | devise |
+  RSpec-rails | Factory_bot_rails |
 
 # Features
 - ユーザーの一覧表示機能
