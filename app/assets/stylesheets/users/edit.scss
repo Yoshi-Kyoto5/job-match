@@ -1,4 +1,4 @@
-$main-color: #fd5068;
+$main-color: orange;
 $main-text-color: #fff;
 .userEditPage {
   .header {
@@ -7,6 +7,7 @@ $main-text-color: #fff;
     text-align: center;
     background: $main-color;
     color: $main-text-color;
+    font-size: 20px;
   }
   .submitBtn {
     background: $main-color;
