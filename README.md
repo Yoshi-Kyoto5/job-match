@@ -5,8 +5,8 @@
 
 # Requirement
 - Ruby | Rails | MySQL | Circle CI/CD | AWS(Route53, ACM, CloudFront, EC2, S3) |
-  Nginx | Unicorn | Capistrano | carrierwave | mini_magick | jTinder |
-  jquery-rails | action_cable | font-awesome-sass | bootstrap | devise |
+  Nginx | Unicorn | Capistrano | CarrierWave | mini_magick | jTinder |
+  jquery-rails | Action_Cable | font-awesome-sass | Bootstrap | devise |
   RSpec-rails | Factory_bot_rails |
 
 # Features
