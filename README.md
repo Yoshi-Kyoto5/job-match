@@ -21,7 +21,7 @@
 - 管理ユーザーログイン、ログアウト機能
 
 # Suteru
-![readme2](https://user-images.githubusercontent.com/61217608/81054352-9f629a00-8f01-11ea-93c6-fee820aa7878.jpg)
+<img width="850" alt="12" src="https://user-images.githubusercontent.com/61217608/83345159-cbc7d580-a34a-11ea-8a2c-5898028359cc.png">
 
 # Overview 
 - 仕事探しのマッチングアプリ（新型コロナ緊急対策）
