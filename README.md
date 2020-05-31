@@ -29,7 +29,7 @@
 
 # Test account
 - （求職者）E-mail = user3@gmail.com, Password = 888888
-- （求人者）E-mail = user1@gmail.com, Password = 888888
+- （求人者）E-mail = user9@gmail.com, Password = 888888
 
 # Description
 - 登録したユーザーを確認できる（求人者 / 求職者）
